@@ -1,9 +1,7 @@
-x = (input("Please enter a number from 1 100 ? "))
+x = int(input("Please enter a number from 1 100 ? "))
 
-for ind in x:
-    if x > 2:
-            print('not so Good work')
-    else:
-        print("Thanks")
-
-Print("End of program")
+if x > 2:
+    print('not so Good work')
+else:
+    print("Thanks")
+print("End of program")
