@@ -5,3 +5,5 @@ for ind in x:
             print('not so Good work')
     else:
         print("Thanks")
+
+Print("End of program")
